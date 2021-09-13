@@ -1,0 +1,21 @@
+#courseName{
+    width:300px; 
+    text-overflow:ellipsis; 
+    overflow: hidden;
+    color:;
+    
+}
+
+.courses{
+    overflow-x:scroll;
+    white-space: nowrap; 
+    margin-left: 10px;
+}
+.courseBuffer{
+   display: inline-block;
+    margin-right: 150px;
+}
+.coverImage{
+   width:350px;
+    height:200px;
+}

@@ -1,0 +1,25 @@
+.summaryBody{
+    margin-left:280px ; 
+    margin-right:50px;
+    font-size: 20px;
+        margin-top: 50px;
+
+}
+#mainTable{
+    width:70%;
+     margin: auto; 
+    
+    
+    border: 3px solid green; 
+    padding: 10px;
+    text-align: center;
+    
+}
+#mainTable tr:nth-child(even){background-color: #d9fcde;}
+
+#mainTable tr:hover {background-color: #ddd;}
+
+#mainTable th{
+    background-color: #04AA6D;
+    color: white;
+}

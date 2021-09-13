@@ -1,0 +1,31 @@
+.examBody{
+    margin: auto; 
+    width: 70%; 
+    border: 3px solid #00003E; 
+    padding: 10px;
+}
+#mainTable{
+    width:100%;
+     margin: auto; 
+    
+    
+    border: 3px solid #00003E; 
+    padding: 10px;
+    text-align: center;
+    
+}
+#mainTable tr:nth-child(even){background-color: #d9fcde;}
+
+#mainTable tr:hover {background-color: #ddd;}
+
+#mainTable th{
+    background-color: #04AA6D;
+    color: white;
+}
+
+#deleteBtn{
+    background-color: #ff7a78;
+    padding: 2px 3px;
+    margin: 8px 0;
+    font-size: 16px;
+}

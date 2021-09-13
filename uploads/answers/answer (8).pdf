@@ -1,0 +1,95 @@
+
+
+
+
+
+<br />
+<b>Notice</b>:  Undefined variable: bytes in <b>D:\xamp\htdocs\Unique Learning\examEvaluation.php</b> on line <b>51</b><br />
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Exam Evaluation</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles/coursesHome.css" type="text/css" >
+
+    </head>
+    <body>
+
+
+
+
+
+
+        <table border="2" style="width:100%">
+            <tr>
+                <th>Exam Id </th>
+                <th>Student Id </th>
+                <th>Submit Time </th>
+                <th>Answer</th>
+
+                <th>Result</th>
+            </tr>  
+            
+
+            <form method="post" action="/Unique Learning/examEvaluation.php" enctype="multipart/form-data">
+
+                <tr>
+
+                    <td> <p> EX40434 </p>  </td>
+                    <td> <p> ST60603 </p>  </td>
+
+                    <td> <p> 2021-06-20 04:06:36 </p></td>
+
+                    <td><p> 2nd year.pdf                        <input type="hidden" name="examStudentId" value="ST60603 " >
+                        <input type="hidden" name="examID" value=" EX40434  " >
+                        <input type="hidden" name="paperAnswer" value=" 2nd year.pdf  " >
+                        <input type="submit" name="viewAnswer" value="view">
+                    </td>
+
+
+                    <td><input type="text" name="result">
+                        <input type="submit" name="resultSubmit" value="submit">
+                        <input type="submit" name="resultUpdate" value="Update">
+                    </td>
+                </tr>   
+
+
+            </form>
+
+            
+
+            <form method="post" action="/Unique Learning/examEvaluation.php" enctype="multipart/form-data">
+
+                <tr>
+
+                    <td> <p> EX96861 </p>  </td>
+                    <td> <p> ST60603 </p>  </td>
+
+                    <td> <p> 2021-06-20 07:57:54 </p></td>
+
+                    <td><p> IT2030 - Malabe - Regular.pdf                        <input type="hidden" name="examStudentId" value="ST60603 " >
+                        <input type="hidden" name="examID" value=" EX96861  " >
+                        <input type="hidden" name="paperAnswer" value=" IT2030 - Malabe - Regular.pdf  " >
+                        <input type="submit" name="viewAnswer" value="view">
+                    </td>
+
+
+                    <td><input type="text" name="result">
+                        <input type="submit" name="resultSubmit" value="submit">
+                        <input type="submit" name="resultUpdate" value="Update">
+                    </td>
+                </tr>   
+
+
+            </form>
+
+            
+        </table>
+
+       
+
+    </body>
+</html>
